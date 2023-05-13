@@ -1,0 +1,60 @@
+{
+  "name": "@i1k/smart-cache-manager",
+  "version": "0.0.7",
+  "author": "Ivan Kazantsev",
+  "license": "MIT",
+  "description": "Smart cache manager for caching clients.",
+  "homepage": "https://github.com/i1kazantsev/smart-cache-manager#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i1kazantsev/smart-cache-manager"
+  },
+  "bugs": {
+    "url": "https://github.com/i1kazantsev/smart-cache-manager/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "test"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "jest",
+    "lint:js": "eslint --ext .js,.ts --ignore-path .gitignore .",
+    "lint:prettier": "prettier --check .",
+    "lint": "pnpm lint:js && pnpm lint:prettier",
+    "lintfix": "prettier --write --list-different . && pnpm lint:js -- --fix",
+    "release": "pnpm lint && standard-version",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,ts}": "eslint --cache",
+    "*.**": "prettier --check --ignore-unknown"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.0",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@types/jest": "^29.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "standard-version": "^9.5.0",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [
+    "cache client",
+    "cache manager",
+    "multicache",
+    "redis",
+    "memory"
+  ]
+}
