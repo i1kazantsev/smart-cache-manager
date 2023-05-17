@@ -1,5 +1,7 @@
 # @i1k/smart-cache-manager
 
+[![npm version](https://img.shields.io/npm/v/@i1k/smart-cache-manager/latest.svg)](https://www.npmjs.com/package/@i1k/smart-cache-manager)
+
 Smart cache manager for caching clients such as:
 
 - [@ik/redis-cache-client](https://github.com/ivan1kazantsev/redis-cache-client#readme)
