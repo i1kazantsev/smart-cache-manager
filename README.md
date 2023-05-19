@@ -4,8 +4,8 @@
 
 Smart cache manager for caching clients such as:
 
-- [@ik/redis-cache-client](https://github.com/ivan1kazantsev/redis-cache-client#readme)
-- [@ik/memory-cache-client](https://github.com/ivan1kazantsev/memory-cache-client#readme)
+- [@i1k/redis-cache-client](https://github.com/ivan1kazantsev/redis-cache-client#readme)
+- [@i1k/memory-cache-client](https://github.com/ivan1kazantsev/memory-cache-client#readme)
 - another client with [the same interface](#api-reference)
 
 Provides features:
@@ -27,10 +27,10 @@ Additionally, you need to install or implement clients with [the same interface]
 
 ```bash
 # using pnpm
-pnpm i @ik/redis-cache-client @ik/memory-cache-client
+pnpm i @i1k/redis-cache-client @i1k/memory-cache-client
 
 # using npm
-npm i @ik/redis-cache-client @ik/memory-cache-client
+npm i @i1k/redis-cache-client @i1k/memory-cache-client
 ```
 
 ## Usage
