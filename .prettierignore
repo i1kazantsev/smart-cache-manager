@@ -1,2 +1,4 @@
 pnpm-lock.yaml
 CHANGELOG.md
+dist
+coverage
