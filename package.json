@@ -1,6 +1,6 @@
 {
   "name": "@i1k/smart-cache-manager",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": "Ivan Kazantsev",
   "license": "MIT",
   "description": "Smart cache manager for caching clients.",
