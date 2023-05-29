@@ -1,6 +1,7 @@
 # @i1k/smart-cache-manager
 
 [![npm version](https://img.shields.io/npm/v/@i1k/smart-cache-manager/latest.svg)](https://www.npmjs.com/package/@i1k/smart-cache-manager)
+[![codecov](https://codecov.io/gh/i1kazantsev/smart-cache-manager/branch/main/graph/badge.svg?token=FNWG7967R2)](https://codecov.io/gh/i1kazantsev/smart-cache-manager)
 
 Smart cache manager for caching clients such as:
 
