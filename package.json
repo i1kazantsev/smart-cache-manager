@@ -25,7 +25,7 @@
     "lint:js": "eslint --ext .js,.ts --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
     "lint": "pnpm lint:js && pnpm lint:prettier",
-    "lintfix": "prettier --write --list-different . && pnpm lint:js -- --fix",
+    "lintfix": "prettier --write --list-different . && eslint --ext .js,.ts --ignore-path .gitignore . --fix",
     "release": "pnpm lint && pnpm build && standard-version",
     "prepare": "husky install"
   },
